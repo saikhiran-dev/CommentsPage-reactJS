@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+.comments-bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+@media screen and (min-width: 768px) {
+  .comments-bg-container {
+    margin-top: 96px;
+  }
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 550px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 80%;
+    max-width: 1140px;
+  }
+}
+
+.main-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+.comment-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .comment-input-container {
+    flex-direction: row;
+  }
+}
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .form-input-container {
+    order: 0;
+    width: 28%;
+    min-width: 300px;
+  }
+}
+.input-box {
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #cbd2d9;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 12px;
+  font-family: 'Roboto';
+}
+.name-input {
+  margin-bottom: 9px;
+}
+.comment-input {
+  margin-bottom: 15px;
+}
+.submit-button {
+  display: flex;
+  align-self: flex-start;
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 7px;
+  font-size: 11px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+hr {
+  width: 100%;
+}
+.image {
+  width: 280px;
+  height: 200px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 380px;
+    height: 300px;
+  }
+}
+.comments-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.no-of-comments {
+  margin-right: 4px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-size: 12px;
+}
+.comments-heading {
+  font-weight: 600;
+  font-size: 13px;
+}
+.comments-list {
+  padding-left: 0;
+  margin-top: 0;
+}
